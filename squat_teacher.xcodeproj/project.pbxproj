@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		42FD3E7F2E7675B800C5E361 /* squat_teacher Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 42FD3E7E2E7675B800C5E361 /* squat_teacher Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		42FD3E932E767B0F00C5E361 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 42FD3E922E767B0800C5E361 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		42FD3E782E7675B800C5E361 /* squat_teacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = squat_teacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FD3E7E2E7675B800C5E361 /* squat_teacher Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "squat_teacher Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FD3E922E767B0800C5E361 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -61,6 +63,7 @@
 		42FD3E712E7675B800C5E361 = {
 			isa = PBXGroup;
 			children = (
+				42FD3E922E767B0800C5E361 /* README.md */,
 				42FD3E822E7675B800C5E361 /* squat_teacher Watch App */,
 				42FD3E792E7675B800C5E361 /* Products */,
 			);
@@ -169,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42FD3E932E767B0F00C5E361 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +331,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "squat-teacher.squat-teacher.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chibayoshiharu.squatteacher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -356,7 +360,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "squat-teacher.squat-teacher.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chibayoshiharu.squatteacher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -376,7 +380,7 @@
 				DEVELOPMENT_TEAM = 4G27DL5GVB;
 				INFOPLIST_KEY_CFBundleDisplayName = squat_teacher;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "squat-teacher.squat-teacher";
+				PRODUCT_BUNDLE_IDENTIFIER = squatteacher.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -391,7 +395,7 @@
 				DEVELOPMENT_TEAM = 4G27DL5GVB;
 				INFOPLIST_KEY_CFBundleDisplayName = squat_teacher;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "squat-teacher.squat-teacher";
+				PRODUCT_BUNDLE_IDENTIFIER = squatteacher.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
